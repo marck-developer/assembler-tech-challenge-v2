@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import withLayout from "../../components/HOC/withLayout";
 // import { StarIcon } from "@heroicons/react/solid";
 
-
 function Home() {
     return (
       <>
@@ -12,7 +11,6 @@ function Home() {
             <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
               <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
                 <img
-                  
                   alt=""
                   className="w-full h-full object-center object-cover max-h-96"
                 />
@@ -20,14 +18,12 @@ function Home() {
               <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
                 <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
                   <img
-                    
                     alt=""
                     className="w-full h-full object-center object-cover max-h-44"
                   />
                 </div>
                 <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
                   <img
-                    
                     alt=""
                     className="w-full h-full object-center object-cover max-h-44"
                   />
@@ -35,7 +31,6 @@ function Home() {
               </div>
               <div className="aspect-w-4 aspect-h-5 sm:rounded-lg sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
                 <img
-                  
                   alt=""
                   className="w-full h-full object-center object-cover max-h-96"
                 />
@@ -75,9 +70,7 @@ function Home() {
                   </div>
                 </div>
 
-                <button
-                  className="mt-10 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                >
+                <button className="mt-10 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                   Upload
                 </button>
               </div>
@@ -88,16 +81,12 @@ function Home() {
                   <h3 className="sr-only">Description</h3>
 
                   <div className="space-y-6">
-                    <p className="text-base text-gray-900">
-                      {}
-                    </p>
+                    <p className="text-base text-gray-900">{}</p>
                   </div>
                 </div>
 
                 <div className="mt-10">
-                  <h3 className="text-sm font-medium text-gray-900">
-                    {}
-                  </h3>
+                  <h3 className="text-sm font-medium text-gray-900">{}</h3>
 
                   <div className="mt-4">
                     {/*  <ul role="list" className="pl-4 list-disc text-sm space-y-2">
@@ -123,7 +112,6 @@ function Home() {
         </div>
       </>
     );
-
 }
 
 export default withLayout(Home);
